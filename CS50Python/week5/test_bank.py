@@ -13,6 +13,8 @@ def test_noth():
     assert value("What's your name?") == 100
 
 """
+The above code is to test the following code called bank.py
+
 def main():
     greeting = input("Greeting: ").strip().lower()
     print(f"${value(greeting)}")
