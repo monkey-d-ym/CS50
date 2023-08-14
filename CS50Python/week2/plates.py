@@ -9,6 +9,7 @@ def main():
     else:
         print("Invalid")
 
+
 def is_valid(s):
     if 2 <= len(s) <= 6 and s[0:2].isalpha():
         if s.isalpha():
@@ -20,5 +21,11 @@ def is_valid(s):
                         return True
                     else:
                         return False
+        else:
+            return False
+    else:
+        return False
 
-main()
+if __name__ == "__main__":
+    main()
+
